@@ -10,8 +10,8 @@ const colors = {
   inactiveIcon: '#EBEBEB', // 7
   primary: '#2e68f8', // 8
   primaryHover: '#2e68f8', // 9
-  secondary: '#d6ab00', // 10
-  secondaryHover: '#d6ab00', // 11
+  secondary: '#baff27', // 10
+  secondaryHover: '#baff27', // 11
   yellow: 'pink', // 12
   yellowHover: '#F29E', // 13
   borderColor: '#1b1e25', //14

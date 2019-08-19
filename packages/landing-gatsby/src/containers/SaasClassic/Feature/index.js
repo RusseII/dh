@@ -92,7 +92,7 @@ FeatureSection.defaultProps = {
     fontSize: '14px',
     letterSpacing: '0.15em',
     fontWeight: '700',
-    color: '#ff4362',
+    color: '#fc6a6a',
     mb: '12px',
   },
   secHeading: {

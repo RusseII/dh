@@ -8,7 +8,7 @@ const NewsletterWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: -105px;
+  margin-top: 155px;
   @media (max-width: 1220px) {
     padding: 35px 40px;
   }

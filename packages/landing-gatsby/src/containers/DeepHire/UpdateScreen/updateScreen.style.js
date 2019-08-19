@@ -69,7 +69,7 @@ const SectionWrapper = styled.section`
         margin-right: 0;
         transition: 0.25s ease-in-out;
         &:hover {
-          color: #ff4362;
+          color: #fc6a6a;
         }
         &:after {
           content: '';
@@ -84,13 +84,13 @@ const SectionWrapper = styled.section`
           }
         }
         &:after {
-          background: #ff4362;
+          background: #fc6a6a;
           transform: scaleX(0);
           transform-origin: right center 0;
           transition: transform 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0s;
         }
         &.rc-tabs-tab-active {
-          color: #ff4362;
+          color: #fc6a6a;
           &:after {
             transform: scaleX(1);
             transform-origin: left center 0;
@@ -137,7 +137,7 @@ const SectionWrapper = styled.section`
   .rc-tabs-tab-prev-icon,
   .rc-tabs-tab-next-icon {
     font-size: 20px;
-    color: #ff4362;
+    color: #fc6a6a;
     line-height: 1;
     display: block;
   }

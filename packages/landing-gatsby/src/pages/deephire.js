@@ -48,7 +48,7 @@ export default () => {
           {/* <PricingSection /> */}
           <TestimonialSection />
           <Faq />
-          {/* <CTA /> */}
+          <CTA />
           <NewsletterSection />
           {/* <Footer /> */}
         </ContentWrapper>

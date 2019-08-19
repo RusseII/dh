@@ -44,7 +44,7 @@ const FaqSection = ({
       <Container>
         <Box {...sectionHeader}>
           <Text content="FAQ" {...sectionSubTitle} />
-          <Heading content="Frequently Ask Question" {...sectionTitle} />
+          <Heading content="Frequently Asked Questions" {...sectionTitle} />
         </Box>
         <Box className="row">
           <Accordion>

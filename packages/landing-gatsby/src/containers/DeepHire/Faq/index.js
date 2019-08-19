@@ -102,17 +102,22 @@ FaqSection.defaultProps = {
     fontSize: '14px',
     letterSpacing: '0.15em',
     fontWeight: '700',
-    color: '#ff4362',
+    color: '#fc6a6a',
     mb: '10px',
   },
   // section title default style
   sectionTitle: {
     textAlign: 'center',
-    fontSize: ['20px', '24px'],
-    fontWeight: '400',
+    fontSize: ['20px', '24px', '36px', '36px'],
+    fontWeight: '700',
     color: '#0f2137',
     letterSpacing: '-0.025em',
     mb: '0',
+    ml: 'auto',
+    mr: 'auto',
+    lineHeight: '1.12',
+    width: '500px',
+    maxWidth: '100%',
   },
   // accordion title default style
   titleStyle: {

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const NewsletterSectionWrapper = styled.section`
-  padding: 80px 0;
+  padding: 200px 0 60px 0;
   overflow: hidden;
   @media (max-width: 990px) {
     padding: 40px 0 60px 0;
