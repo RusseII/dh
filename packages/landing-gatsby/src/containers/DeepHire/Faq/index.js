@@ -66,10 +66,7 @@ const FaqSection = ({
                       </Fragment>
                     </AccordionTitle>
                     <AccordionBody>
-                      <Text
-                        content={faqItem.description}
-                        {...descriptionStyle}
-                      />
+                      <Text content={faqItem.description} {...descriptionStyle} />
                     </AccordionBody>
                   </Fragment>
                 </AccordionItem>
@@ -105,7 +102,7 @@ FaqSection.defaultProps = {
     fontSize: '14px',
     letterSpacing: '0.15em',
     fontWeight: '700',
-    color: '#999f31',
+    color: '#ff4362',
     mb: '10px',
   },
   // section title default style
