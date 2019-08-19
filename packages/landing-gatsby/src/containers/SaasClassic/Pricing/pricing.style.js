@@ -147,7 +147,7 @@ const PricingButtonWrapper = styled.div`
       font-size: 14px;
     }
     &:hover {
-      color: #fc6a6a;
+      color: #2e68f8;
     }
     &:after {
       content: '';
@@ -157,13 +157,13 @@ const PricingButtonWrapper = styled.div`
       bottom: 0;
       left: 0;
       display: block;
-      background: #fc6a6a;
+      background: #2e68f8;
       transform: scaleX(0);
       transform-origin: right center 0;
       transition: transform 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0s;
     }
     &.active-item {
-      color: #fc6a6a;
+      color: #2e68f8;
       &:after {
         transform: scaleX(1);
         transform-origin: left center 0;

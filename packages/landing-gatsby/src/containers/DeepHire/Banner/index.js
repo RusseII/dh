@@ -18,7 +18,9 @@ import {
   PlayButton,
   VideoWrapper,
 } from './banner.style';
-import BannerImage from 'common/src/assets/image/saasClassic/banner-image.jpg';
+// import BannerImage from 'common/src/assets/image/saasClassic/banner-image.jpg';
+import BannerImage from 'common/src/assets/image/deephire/jobSeekerView.jpg';
+
 import { ic_play_circle_filled } from 'react-icons-kit/md/ic_play_circle_filled';
 import { play } from 'react-icons-kit/entypo/play';
 
@@ -86,11 +88,8 @@ const BannerSection = ({
               {...description}
               content="The way you are presenting candidates is keeping you from doubling your placement rate."
             />
-            <br/>
-            <Text
-              {...description}
-              content="We can help you change that."
-            />
+            <br />
+            <Text {...description} content="We can help you change that." />
             <Box {...buttonWrapper}>
               <a href="#1">
                 <Button {...fillButton} title="GET DEMO" />

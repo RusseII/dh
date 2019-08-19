@@ -102,7 +102,7 @@ FaqSection.defaultProps = {
     fontSize: '14px',
     letterSpacing: '0.15em',
     fontWeight: '700',
-    color: '#fc6a6a',
+    color: '#2e68f8',
     mb: '10px',
   },
   // section title default style
