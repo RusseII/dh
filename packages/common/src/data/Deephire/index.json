@@ -29,24 +29,24 @@
   "SERVICE_ITEMS": [
 
     {
-      "icon": "flaticon-prototype",
+      "icon": "flaticon-money-bag",
       "title": "Increase repeat business"
     },
     {
-      "icon": "flaticon-stopwatch-1",
+      "icon": "flaticon-plus-symbol",
       "title": "Get more clients"
     },
     
     {
-      "icon": "flaticon-code",
+      "icon": "flaticon-stopwatch-1",
       "title": "Improve time to fill"
     },
     {
-      "icon": "flaticon-vectors",
+      "icon": "flaticon-creative",
       "title": "Look innovative"
     },
     {
-      "icon": "flaticon-export",
+      "icon": "flaticon-group",
       "title": "Place more candidates"
     }
   ],
@@ -331,32 +331,32 @@
   ],
   "FEATURES": [
     {
-      "icon": "flaticon-hourglass",
+      "icon": "flaticon-briefing",
       "title": "Beautiful Presentations",
       "description": "The best way to present your candidate information. Show their resume, writeup, video interview, and any other docs you have all in one place."
     },
     {
-      "icon": "flaticon-trophy-1",
+      "icon": "flaticon-vectors",
       "title": "Full Client Analytics",
-      "description": "Get your proof tests delivered home collect a sample from the news get design."
+      "description": "See everything your client does. Get notified when they view your candidates so you can follow up in real-time. "
     },
     {
-      "icon": "flaticon-upload",
+      "icon": "flaticon-prototype",
       "title": "Personalized Branding",
-      "description": "Get your proof tests delivered home collect a sample from the news get design."
+      "description": "Strengthen your company brand by using your own branding on your candidate presentations."
     },
     {
-      "icon": "flaticon-settings",
-      "title": "Customization",
-      "description": "Get your proof tests delivered home collect a sample from the news get design."
+      "icon": "flaticon-trophy-1",
+      "title": "Simple",
+      "description": "Simple for your clients, simple for you, simple for candidates. Clients can view your candidates at the click of a button"
     },
     {
-      "icon": "flaticon-strategy",
+      "icon": "flaticon-link",
       "title": "One-Click-Interview",
       "description": "The absoloute easiest way to get videos of your candidates. They click on a link, and can immediatly record their responses no matter the device or browser."
     },
     {
-      "icon": "One-Click Interview",
+      "icon": "flaticon-conversation",
       "title": "Customer Support",
       "description": "Full support for both you, and your candidates. Heck, click the blue botton at the bottom right and send us a message right now!"
     }
