@@ -5,7 +5,7 @@ import Sticky from 'react-stickynode';
 import { DrawerProvider } from 'common/src/contexts/DrawerContext';
 import { deephireTheme } from 'common/src/theme/deephire';
 import { ResetCSS } from 'common/src/assets/css/style';
-import { GlobalStyle, ContentWrapper } from '../containers/SaasClassic/saasClassic.style';
+import { GlobalStyle, ContentWrapper } from '../containers/DeepHire/deephire.style';
 
 import BannerSection from '../containers/DeepHire/Banner';
 import Navbar from '../containers/DeepHire/Navbar';
