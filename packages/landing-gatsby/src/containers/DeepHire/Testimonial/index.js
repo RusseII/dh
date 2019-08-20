@@ -87,10 +87,10 @@ const TestimonialSection = ({
                     <TestimonialMeta>
                       <AuthorInfo>
                         <AuthorImage>
-                          <Image
+                          {/* <Image
                             fluid={item.avatar.childImageSharp.fluid}
                             alt={`reviewer-image-${index}`}
-                          />
+                          /> */}
                         </AuthorImage>
                         <Box>
                           <Heading as="h3" content={item.name} {...name} />
