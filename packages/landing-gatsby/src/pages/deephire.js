@@ -10,9 +10,7 @@ import { GlobalStyle, ContentWrapper } from '../containers/DeepHire/deephire.sty
 import BannerSection from '../containers/DeepHire/Banner';
 import Navbar from '../containers/DeepHire/Navbar';
 import ServiceSection from '../containers/DeepHire/Service';
-import PricingSection from '../containers/SaasClassic/Pricing';
-import PartnerSection from '../containers/SaasClassic/Partner';
-import TrialSection from '../containers/SaasClassic/Trial';
+
 import FeatureSection from '../containers/DeepHire/Feature';
 import UpdateScreen from '../containers/DeepHire/UpdateScreen';
 import Faq from '../containers/DeepHire/Faq';
@@ -20,8 +18,7 @@ import Faq from '../containers/DeepHire/Faq';
 import CTA from '../containers/DeepHire/CTA';
 
 import TestimonialSection from '../containers/DeepHire/Testimonial';
-import NewsletterSection from '../containers/DeepHire/NewsletterSection';
-import Footer from '../containers/SaasClassic/Footer';
+
 import '@redq/reuse-modal/es/index.css';
 import SEO from '../components/seo';
 
