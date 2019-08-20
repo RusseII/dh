@@ -409,26 +409,26 @@ export const SCREENSHOTS = [
 
 export const TESTIMONIALS = [
   {
-    title: 'Modern look & trending design',
+    title: 'My Clients love DeepHire',
     review:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
-    name: 'Denny Hilguston',
-    designation: 'CEO of Dell Co.',
-    avatar: `${AuthorOne}`,
+      'DeepHire has made a world of difference in my business. My clients love recieving the DeepHire shortlist, and I can tell they watch the videos as soon as I send over a candidate. Before we used DeepHire, it was difficult to get feedback from our clients about the candidates.',
+    name: 'Aron Hilgust',
+    designation: 'Owner at Virtual Recruit.',
+    avatar: `${AuthorOne}`
   },
   {
-    title: 'Modern look & trending design',
+    title: 'DeepHire took me to the next level',
     review:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore features Lorem ipsum dolor sit amet consectetur.',
-    name: 'Justin Albuz',
-    designation: 'Co Founder of IBM',
+      'My clients love the way I present candidates. DeepHire sets me apart from all my competition. ',
+    name: 'Matt Arching',
+    designation: 'Partner at Digital Recruitment LLC',
     avatar: `${AuthorTwo}`,
   },
   {
     title: 'Modern look & trending design',
     review:
       'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
-    name: 'Milly Cristiana',
+    name: 'Petra Cristiana',
     designation: 'Manager of Hp co.',
     avatar: `${AuthorThree}`,
   },

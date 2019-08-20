@@ -29,7 +29,7 @@ const TestimonialSection = ({
 }) => {
   const Data = useStaticQuery(graphql`
     query {
-      saasClassicJson {
+      deephireJson {
         TESTIMONIALS {
           name
           designation
@@ -76,10 +76,10 @@ const TestimonialSection = ({
             carouselSelector="testimonial__slider"
             controls={false}
             bullets={true}
-            numberOfBullets={Data.saasClassicJson.TESTIMONIALS.length}
+            numberOfBullets={Data.deephireJson.TESTIMONIALS.length}
           >
             <>
-              {Data.saasClassicJson.TESTIMONIALS.map((item, index) => (
+              {Data.deephireJson.TESTIMONIALS.map((item, index) => (
                 <GlideSlide key={`testimonial-slide-${index}`}>
                   <TestimonialItem>
                     <Heading as="h3" content={item.title} {...reviewTitle} />
