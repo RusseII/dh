@@ -18,7 +18,6 @@ import {
   PlayButton,
   VideoWrapper,
 } from './banner.style';
-// import BannerImage from 'common/src/assets/image/saasClassic/banner-image.jpg';
 import BannerImage from 'common/src/assets/image/deephire/shareCandidate.jpg';
 
 import { ic_play_circle_filled } from 'react-icons-kit/md/ic_play_circle_filled';

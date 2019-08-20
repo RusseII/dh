@@ -1,13 +1,12 @@
-// import Screenshot1 from '../../assets/image/saasClassic/screen-1.png';
 import Screenshot1 from '../../assets/image/deephire/screenshot5.png';
 import Screenshot2 from '../../assets/image/deephire/screenshot1.jpg';
 import analytics from '../../assets/image/deephire/analytics.svg';
 import jobSeekerView from '../../assets/image/deephire/jobSeekerView.jpg';
 import shareCandidate from '../../assets/image/deephire/shareCandidate.jpg';
 
-import AuthorOne from '../../assets/image/saasClassic/author-1.jpg';
-import AuthorTwo from '../../assets/image/saasClassic/author-2.jpg';
-import AuthorThree from '../../assets/image/saasClassic/author-3.jpg';
+import AuthorOne from '../../assets/image/deephire/author-1.jpg';
+import AuthorTwo from '../../assets/image/deephire/author-2.jpg';
+import AuthorThree from '../../assets/image/deephire/author-3.jpg';
 
 // import { ic_monetization_on } from './node_modules/react-icons-kit/md/ic_monetization_on';
 // import { ic_settings } from './node_modules/react-icons-kit/md/ic_settings';

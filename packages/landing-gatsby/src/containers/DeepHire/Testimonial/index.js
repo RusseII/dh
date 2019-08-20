@@ -35,18 +35,19 @@ const TestimonialSection = ({
           designation
           review
           title
-          avatar {
-            childImageSharp {
-              fluid(quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
+        
         }
       }
     }
   `);
 
+    // avatar {
+    //         childImageSharp {
+    //           fluid(quality: 100) {
+    //             ...GatsbyImageSharpFluid
+    //           }
+    //         }
+    //       }
   const carouselOptions = {
     type: 'carousel',
     autoplay: 6000,
