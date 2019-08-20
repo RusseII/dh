@@ -46,7 +46,7 @@
       "title": "Look innovative"
     },
     {
-      "icon": "flaticon-group",
+      "icon": "flaticon-user",
       "title": "Place more candidates"
     }
   ],
@@ -216,15 +216,15 @@
     {
       "expend": true,
       "title": "What will my clients think?",
-      "description": "Our Customer Experience Team is available 7 days a week and we offer 2 ways to get in contact.Email and Chat . We try to reply quickly, so you need not to wait too long for a response!. "
+      "description": "See quotes from peoples clients HERE"
     },
     {
       "title": "What will my candidates think?",
-      "description": "Please read the documentation carefully . We also have some online  video tutorials regarding this issue . If the problem remains, Please Open a ticket in the support forum . "
+      "description": "See feedback from candidates HERE"
     },
     {
       "title": "What support do I get?",
-      "description": "All of our plans come with 24/7 support with a real human."
+      "description": "All of our plans come with 24/7 support with a real human. Click the blue button on the bottom right and say hello!"
     },
     {
       "title": "What if I'm not sure if this is for me?",

@@ -44,7 +44,7 @@ const SectionWrapper = styled.section`
         .service_icon {
           background-color: #eaf9ff;
           color: #45b1e1;
-          font-size: 46px;
+          font-size: 56px;
           @media (max-width: 990px) {
             font-size: 40px;
           }
@@ -60,7 +60,7 @@ const SectionWrapper = styled.section`
         .service_icon {
           background-color: #fff6d3;
           color: #d6ab00;
-          font-size: 46px;
+          font-size: 56px;
           @media (max-width: 990px) {
             font-size: 40px;
           }
@@ -76,12 +76,9 @@ const SectionWrapper = styled.section`
         .service_icon {
           background-color: #e4ffee;
           color: #40975f;
-          font-size: 46px;
+          font-size: 56px;
           @media (max-width: 990px) {
             font-size: 40px;
-          }
-          i {
-            height: 36px;
           }
         }
         h3 {
@@ -95,7 +92,7 @@ const SectionWrapper = styled.section`
         .service_icon {
           background-color: #f4f4ff;
           color: #5856d6;
-          font-size: 32px;
+          font-size: 56px;
           @media (max-width: 990px) {
             font-size: 28px;
           }
