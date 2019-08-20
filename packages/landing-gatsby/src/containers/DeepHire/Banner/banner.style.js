@@ -85,7 +85,7 @@ export const PlayButton = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #ff4553;
+  color: #155dff;
   cursor: pointer;
   outline: 0;
   z-index: 2;
