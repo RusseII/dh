@@ -53,7 +53,7 @@ const NewsletterForm = styled.div`
       width: 100%;
     }
     &:hover {
-      box-shadow: 0px 9px 20px -5px rgba(16, 172, 132, 0.57);
+      box-shadow: 0px 9px 20px -5px rgba(21, 93, 255, 0.57);
     }
   }
 `;

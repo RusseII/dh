@@ -49,7 +49,7 @@ export default () => {
           <TestimonialSection />
           <Faq />
           <CTA />
-          <NewsletterSection />
+          {/* <NewsletterSection /> */}
           {/* <Footer /> */}
         </ContentWrapper>
       </Fragment>

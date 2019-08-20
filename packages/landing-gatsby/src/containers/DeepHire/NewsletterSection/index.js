@@ -8,6 +8,7 @@ import Text from 'reusecore/src/elements/Text';
 import Button from 'reusecore/src/elements/Button';
 import Container from 'common/src/components/UI/Container';
 import NewsletterSectionWrapper, { NewsletterForm } from './newsletterSection.style';
+import addToMailchimp from 'gatsby-plugin-mailchimp';
 
 const NewsletterSection = ({ sectionHeader, sectionTitle, btnStyle, secDes }) => {
   return (
