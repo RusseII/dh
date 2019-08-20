@@ -3,6 +3,7 @@ import Screenshot1 from '../../assets/image/deephire/screenshot5.png';
 import Screenshot2 from '../../assets/image/deephire/screenshot1.jpg';
 import analytics from '../../assets/image/deephire/analytics.svg';
 import jobSeekerView from '../../assets/image/deephire/jobSeekerView.jpg';
+import shareCandidate from '../../assets/image/deephire/shareCandidate.jpg';
 
 import AuthorOne from '../../assets/image/saasClassic/author-1.jpg';
 import AuthorTwo from '../../assets/image/saasClassic/author-2.jpg';
@@ -387,8 +388,8 @@ export const FEATURES = [
 export const SCREENSHOTS = [
   {
     // icon: ic_monetization_on,
-    title: 'What your client sees',
-    image: analytics,
+    title: 'What your candidate sees',
+    image: jobSeekerView,
   },
   {
     // icon: ic_settings,
@@ -402,8 +403,8 @@ export const SCREENSHOTS = [
   // },
   {
     // icon: briefcase,
-    title: 'What your candidate sees',
-    image: jobSeekerView,
+    title: 'What your client sees',
+    image: shareCandidate,
   },
 ];
 
@@ -414,7 +415,7 @@ export const TESTIMONIALS = [
       'DeepHire has made a world of difference in my business. My clients love recieving the DeepHire shortlist, and I can tell they watch the videos as soon as I send over a candidate. Before we used DeepHire, it was difficult to get feedback from our clients about the candidates.',
     name: 'Aron Hilgust',
     designation: 'Owner at Virtual Recruit.',
-    avatar: `${AuthorOne}`
+    avatar: `${AuthorOne}`,
   },
   {
     title: 'DeepHire took me to the next level',

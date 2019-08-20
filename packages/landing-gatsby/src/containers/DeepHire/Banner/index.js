@@ -19,7 +19,7 @@ import {
   VideoWrapper,
 } from './banner.style';
 // import BannerImage from 'common/src/assets/image/saasClassic/banner-image.jpg';
-import BannerImage from 'common/src/assets/image/deephire/jobSeekerView.jpg';
+import BannerImage from 'common/src/assets/image/deephire/shareCandidate.jpg';
 
 import { ic_play_circle_filled } from 'react-icons-kit/md/ic_play_circle_filled';
 import { play } from 'react-icons-kit/entypo/play';

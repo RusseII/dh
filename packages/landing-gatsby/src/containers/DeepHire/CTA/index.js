@@ -24,13 +24,13 @@ const Newsletter = ({
           <Box {...textArea}>
             <Heading content="Ready to see if we can help your business?" {...title} />
             <Text
-              content="If you are serious about improving your recruiting business, schedule a demo with us. In the 30 minute demo, we will learn more about your recruiting company, give you free advice on how to improve your placements rates & delight your clients, and show you what our tool can do for you."
+              content="We'll see if your business is a fit, and you will get free advice on improving placment rates & delighting clients."
               {...description}
             />
           </Box>
           <Box {...buttonArea}>
            
-              <Button {...buttonStyle} title="GET DEMO NOW" />
+              <Button {...buttonStyle} title="GET DEMO" />
             
           </Box>
         </NewsletterWrapper>
