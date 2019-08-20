@@ -24,7 +24,7 @@ const Newsletter = ({
           <Box {...textArea}>
             <Heading content="Ready to see if we can help your business?" {...title} />
             <Text
-              content="Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore"
+              content="If you are serious about improving your recruiting business, schedule a demo with us. In the 30 minute demo, we will learn more about your recruiting company, give you free advice on how to improve your placements rates & delight your clients, and show you what our tool can do for you."
               {...description}
             />
           </Box>

@@ -215,20 +215,20 @@
   "FAQ_DATA": [
     {
       "expend": true,
-      "title": "How to contact with Customer Service?",
+      "title": "What will my clients think?",
       "description": "Our Customer Experience Team is available 7 days a week and we offer 2 ways to get in contact.Email and Chat . We try to reply quickly, so you need not to wait too long for a response!. "
     },
     {
-      "title": "App installation failed, how to update system information?",
+      "title": "What will my candidates think?",
       "description": "Please read the documentation carefully . We also have some online  video tutorials regarding this issue . If the problem remains, Please Open a ticket in the support forum . "
     },
     {
-      "title": "Website reponse taking time, how to improve?",
-      "description": "At first, Please check your internet connection . We also have some online  video tutorials regarding this issue . If the problem remains, Please Open a ticket in the support forum ."
+      "title": "What support do I get?",
+      "description": "All of our plans come with 24/7 support with a real human."
     },
     {
-      "title": "New update fixed all bug and issues?",
-      "description": "We are giving the update of this theme continuously . You will receive an email Notification when we push an update. Always try to be updated with us ."
+      "title": "What if I'm not sure if this is for me?",
+      "description": "That is OK! We would still be more than happy to demo with you to see if there might be a fit. At the very least, you will walk away knowing better ways to present your candidates and make placements."
     }
   ],
   "FOOTER_WIDGET": [

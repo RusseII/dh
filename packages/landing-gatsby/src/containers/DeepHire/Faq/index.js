@@ -28,9 +28,8 @@ const FaqSection = ({
 }) => {
   const Data = useStaticQuery(graphql`
     query {
-      agencyJson {
-        faq {
-          id
+      deephireJson {
+        FAQ_DATA {
           description
           expend
           title
@@ -49,7 +48,7 @@ const FaqSection = ({
         <Box className="row">
           <Accordion>
             <Fragment>
-              {Data.agencyJson.faq.map((faqItem, index) => (
+              {Data.deephireJson.FAQ_DATA.map((faqItem, index) => (
                 <AccordionItem key={`accordion_key-${index}`}>
                   <Fragment>
                     <AccordionTitle>

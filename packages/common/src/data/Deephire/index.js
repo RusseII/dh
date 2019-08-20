@@ -231,17 +231,17 @@ export const YEARLY_PRICING_TABLE = [
 export const FAQ_DATA = [
   {
     expend: true,
-    title: 'How to contact with Customer Service?',
+    title: 'What will my clients think?',
     description:
       'Our Customer Experience Team is available 7 days a week and we offer 2 ways to get in contact.Email and Chat . We try to reply quickly, so you need not to wait too long for a response!. ',
   },
   {
-    title: 'App installation failed, how to update system information?',
+    title: 'What will my candidates think?',
     description:
       'Please read the documentation carefully . We also have some online  video tutorials regarding this issue . If the problem remains, Please Open a ticket in the support forum . ',
   },
   {
-    title: 'Website reponse taking time, how to improve?',
+    title: 'What type of support is provided?',
     description:
       'At first, Please check your internet connection . We also have some online  video tutorials regarding this issue . If the problem remains, Please Open a ticket in the support forum .',
   },
