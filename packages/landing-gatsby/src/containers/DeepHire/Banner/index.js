@@ -108,9 +108,9 @@ const BannerSection = ({
             <Fade bottom>
               <VideoModal>
                 <Image src={BannerImage} alt="banner image" />
-                <PlayButton tabIndex="0" onClick={handleVideoModal}>
+                {/* <PlayButton tabIndex="0" onClick={handleVideoModal}>
                   <Icon icon={play} size={40} />
-                </PlayButton>
+                </PlayButton> */}
               </VideoModal>
             </Fade>
           </Box>
