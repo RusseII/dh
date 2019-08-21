@@ -66,7 +66,7 @@ const PricingSection = ({
   `);
 
   const pay = plan => {
-    var stripe = Stripe('pk_test_2s52mn2laRq6R1G70JHccRd5');
+    var stripe = Stripe('pk_live_ku7cHGjH70SiUiDYjUr7MnoG');
     stripe
       .redirectToCheckout({
         items: [{ plan, quantity: 1 }],
@@ -162,7 +162,6 @@ const PricingSection = ({
                   active: true,
                 })
               }
-
             />
             <Button
               title="Monthly Plan"
