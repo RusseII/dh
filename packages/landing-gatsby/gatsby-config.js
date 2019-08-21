@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `DeepHire - Simple Video Interviews`,
-    description: `DeepHire is the simpliest way to present your candidates with video.`,
+    description: `DeepHire is the simplest way to present your candidates with video.`,
     author: `russell@deephire.com`,
   },
   plugins: [

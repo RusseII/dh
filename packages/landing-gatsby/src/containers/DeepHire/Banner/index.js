@@ -84,7 +84,7 @@ const BannerSection = ({
                 />
               </DiscountLabel>
             </DiscountWrapper> */}
-            <Heading {...title} content="Simpliest way to Present your Candidates with Video." />
+            <Heading {...title} content="Simplest way to Present your Candidates with Video." />
             <Text
               {...description}
               content="The way you are presenting candidates is keeping you from doubling your placement rate."

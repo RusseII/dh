@@ -18,7 +18,7 @@ const Newsletter = ({ sectionWrapper, textArea, buttonArea, buttonStyle, title, 
           <Box {...textArea}>
             <Heading content="Ready to see if we can help your business?" {...title} />
             <Text
-              content="We'll see if your business is a fit, and you will get free advice on improving placment rates & delighting clients."
+              content="We'll see if your business is a fit, and you will get free advice on improving placement rates & delighting clients."
               {...description}
             />
           </Box>
