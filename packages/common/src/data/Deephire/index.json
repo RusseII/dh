@@ -21,13 +21,12 @@
       "offset": "0"
     },
     {
-        "label": "FAQ",
+      "label": "FAQ",
       "path": "#faqSection",
       "offset": "0"
     }
   ],
   "SERVICE_ITEMS": [
-
     {
       "icon": "flaticon-money-bag",
       "title": "Increase repeat business"
@@ -36,7 +35,7 @@
       "icon": "flaticon-plus-symbol",
       "title": "Get more clients"
     },
-    
+
     {
       "icon": "flaticon-stopwatch-1",
       "title": "Improve time to fill"
@@ -52,162 +51,150 @@
   ],
   "MONTHLY_PRICING_TABLE": [
     {
-      "name": "Basic Account",
-      "description": "For Small teams or group who need to build website ",
-      "price": "$0",
-      "priceLabel": "Only for first month",
-      "buttonLabel": "Start for free",
-      "url": "#",
-      "listItems": [
-        {
-          "content": "Drag & Drop Builder"
-        },
-        {
-          "content": "1,000s of Templates Ready"
-        },
-        {
-          "content": "Blog Tools"
-        },
-        {
-          "content": "eCommerce Store "
-        },
-        {
-          "content": "30+ Webmaster Tools"
-        }
-      ]
-    },
-    {
-      "name": "Business Account",
-      "description": "For Mediums teams or group who need to build website ",
-      "price": "$9.87",
-      "priceLabel": "Per month & subscription yearly",
-      "buttonLabel": "Register Now",
-      "url": "#",
-      "trialButtonLabel": "Or Start 14 Days trail",
-      "trialURL": "#",
-      "listItems": [
-        {
-          "content": "Drag & Drop Builder"
-        },
-        {
-          "content": "1,000s of Templates Ready"
-        },
-        {
-          "content": "Blog Tools"
-        },
-        {
-          "content": "eCommerce Store "
-        },
-        {
-          "content": "30+ Webmaster Tools"
-        }
-      ]
-    },
-    {
-      "name": "Premium Account",
+      "name": "DeepHire Premium",
       "description": "For Large teams or group who need to build website ",
-      "price": "$12.98",
-      "priceLabel": "Per month & subscription yearly",
+      "price": "$749/mo",
+      "priceLabel": "Billed Monthly",
       "buttonLabel": "Register Now",
-      "url": "#",
+     "stripePlan": "premium-monthly-v1",
       "trialButtonLabel": "Or Start 14 Days trail",
       "trialURL": "#",
       "listItems": [
         {
-          "content": "Drag & Drop Builder"
+          "content": "Everything in Pro & Basic"
         },
         {
-          "content": "1,000s of Templates Ready"
+          "content": "Unlimited Candidate Videos"
         },
         {
-          "content": "Blog Tools"
+          "content": "SMS & Email Followups"
         },
         {
-          "content": "eCommerce Store "
+          "content": "Premium Integrations"
+        }
+      ]
+    },
+    {
+      "name": "DeepHire Pro",
+      "description": "For Mediums teams or group who need to build website ",
+      "price": "$349/mo",
+      "priceLabel": "Billed Monthly",
+      "buttonLabel": "Register Now",
+     "stripePlan": "pro-monthly-v1",
+      "trialButtonLabel": "Or Start 14 Days trail",
+      "trialURL": "#",
+      "listItems": [
+        {
+          "content": "Everything in Basic"
+        },
+         {
+          "content": "1000 Candidate Videos"
         },
         {
-          "content": "30+ Webmaster Tools"
+          "content": "Dedicated Success Coach"
+        },
+       
+        {
+          "content": "Simple Integrations"
+        }
+      ]
+    },
+    {
+      "name": "DeepHire Basic",
+      "description": "For Large teams or group who need to build website ",
+      "price": "$199/mo",
+      "priceLabel": "Billed Monthly",
+      "buttonLabel": "Register Now",
+     "stripePlan": "basic-monthly-v1",
+      "trialButtonLabel": "Or Start 14 Days trail",
+      "trialURL": "#",
+      "listItems": [
+        {
+          "content": "Full Client Analytics"
+        },
+        {
+          "content": "300 Candidate Videos"
+        },
+        {
+          "content": "Personalized Branding"
+        },
+        {
+          "content": "Customer Support"
         }
       ]
     }
   ],
   "YEARLY_PRICING_TABLE": [
     {
-      "name": "Basic Account",
-      "description": "For a single client or team who need to build website ",
-      "price": "$0",
-      "priceLabel": "Only for first month",
-      "buttonLabel": "Start for free",
-      "url": "#",
-      "listItems": [
-        {
-          "content": "Drag & Drop Builder"
-        },
-        {
-          "content": "1,000s of Templates Ready"
-        },
-        {
-          "content": "Blog Tools"
-        },
-        {
-          "content": "eCommerce Store "
-        },
-        {
-          "content": "30+ Webmaster Tools"
-        }
-      ]
-    },
-    {
-      "name": "Business Account",
-      "description": "For Small teams or group who need to build website ",
-      "price": "$6.00",
-      "priceLabel": "Per month & subscription yearly",
-      "buttonLabel": "Register Now",
-      "url": "#",
-      "trialButtonLabel": "Or Start 14 Days trail",
-      "trialURL": "#",
-      "listItems": [
-        {
-          "content": "Unlimited secure storage"
-        },
-        {
-          "content": "2,000s of Templates Ready"
-        },
-        {
-          "content": "Blog Tools"
-        },
-        {
-          "content": "24/7 phone support"
-        },
-        {
-          "content": "50+ Webmaster Tools"
-        }
-      ]
-    },
-    {
-      "name": "Premium Account",
+      "name": "DeepHire Premium",
       "description": "For Large teams or group who need to build website ",
-      "price": "$9.99",
-      "priceLabel": "Per month & subscription yearly",
+      "price": "$599/mo",
+      "priceLabel": "Billed Anually",
       "buttonLabel": "Register Now",
-      "url": "#",
+     "stripePlan": "premium-annual-v1",
       "trialButtonLabel": "Or Start 14 Days trail",
       "trialURL": "#",
       "listItems": [
         {
-          "content": "Drag & Drop Builder"
+          "content": "Everything in Pro & Basic"
         },
         {
-          "content": "3,000s of Templates Ready"
+          "content": "Unlimited Candidate Videos"
         },
         {
-          "content": "Advanced branding"
+          "content": "SMS & Email Followups"
         },
         {
-          "content": "Knowledge base support"
+          "content": "Premium Integrations"
+        }
+      ]
+    },
+    {
+      "name": "DeepHire Pro",
+      "description": "For Mediums teams or group who need to build website ",
+      "price": "$279/mo",
+      "priceLabel": "Billed Anually",
+      "buttonLabel": "Register Now",
+     "stripePlan": "pro-annual-v1",
+      "trialButtonLabel": "Or Start 14 Days trail",
+      "trialURL": "#",
+      "listItems": [
+        {
+          "content": "Everything in Basic"
+        },
+         {
+          "content": "1000 Candidate Videos"
         },
         {
-          "content": "80+ Webmaster Tools"
+          "content": "Dedicated Success Coach"
+        },
+       
+        {
+          "content": "Simple Integrations"
+        }
+      ]
+    },
+    {
+      "name": "DeepHire Basic",
+      "description": "For Large teams or group who need to build website ",
+      "price": "$159/mo",
+      "priceLabel": "Billed Anually",
+      "buttonLabel": "Register Now",
+     "stripePlan": "basic-annual-v1",
+      "trialButtonLabel": "Or Start 14 Days trail",
+      "trialURL": "#",
+      "listItems": [
+        {
+          "content": "Full Client Analytics"
+        },
+        {
+          "content": "300 Candidate Videos"
+        },
+        {
+          "content": "Personalized Branding"
+        },
+        {
+          "content": "Customer Support"
         }
       ]
     }

@@ -14,6 +14,7 @@ import ServiceSection from '../containers/DeepHire/Service';
 import FeatureSection from '../containers/DeepHire/Feature';
 import UpdateScreen from '../containers/DeepHire/UpdateScreen';
 import Faq from '../containers/DeepHire/Faq';
+import Pricing from '../containers/DeepHire/Pricing';
 
 import CTA from '../containers/DeepHire/CTA';
 
@@ -41,8 +42,7 @@ export default () => {
           <ServiceSection />
           <UpdateScreen />
           <FeatureSection />
-          {/* <PartnerSection /> */}
-          {/* <PricingSection /> */}
+          <Pricing />
           <TestimonialSection />
           <Faq />
           <CTA />

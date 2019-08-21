@@ -6,6 +6,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-s3`,
+     options: {
+         bucketName: 'deephire.com'
+     }
+    },
+    {
      resolve: 'gatsby-plugin-mailchimp',
         options: {
             endpoint: 'https://deephire.us20.list-manage.com/subscribe/post?u=ae19c1a100379706c99088841&amp;id=37df4bef82', // add your MC list endpoint here; see instructions below

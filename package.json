@@ -50,7 +50,9 @@
     "gatsby-firebase-serve": "cross-env NODE_ENV=production firebase serve",
     "pregatsby-firebase-deploy": "rimraf dist && yarn run gatsby-build && cpx \"packages/landing-gatsby/public/**/*.*\" \"dist/public\" -C",
     "gatsby-firebase-deploy": "firebase deploy",
-    "netlify-deploy": "yarn workspace next-landing run netlify-build"
+    "netlify-deploy": "yarn workspace next-landing run netlify-build",
+    "s3-deploy": "yarn workspace gatsby-landing gatsby-plugin-s3 deploy"
+
   },
   "husky": {
     "hooks": {
