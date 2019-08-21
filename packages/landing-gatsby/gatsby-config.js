@@ -6,21 +6,40 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-s3`,
-     options: {
-         bucketName: 'landing.deephire.com'
-     }
+      resolve: 'gatsby-plugin-crisp-chat',
+      options: {
+        websiteId: '75eeec48-f14c-4ebf-aa7b-c70b538b63f4',
+      },
     },
     {
-     resolve: 'gatsby-plugin-mailchimp',
-        options: {
-            endpoint: 'https://deephire.us20.list-manage.com/subscribe/post?u=ae19c1a100379706c99088841&amp;id=37df4bef82', // add your MC list endpoint here; see instructions below
-        }
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: '350091625799103',
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: 'UA-103192788-1yar',
+      },
+    },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: 'landing.deephire.com',
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint:
+          'https://deephire.us20.list-manage.com/subscribe/post?u=ae19c1a100379706c99088841&amp;id=37df4bef82', // add your MC list endpoint here; see instructions below
+      },
     },
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {
-
         minify: false, // Breaks styles if not set to false
       },
     },
