@@ -62,14 +62,16 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
               offset={-70}
             />
 
-            <a
-              onClick={e => {
-                Calendly.initPopupWidget({ url: 'https://calendly.com/deephire-steven/demo' });
-                return false;
-              }}
-              className="navbar_button"
-            >
-              <Button {...button} title="GET DEMO" />
+            <a>
+              <Button
+                {...button}
+                title="GET DEMO"
+                onClick={e => {
+                  Calendly.initPopupWidget({ url: 'https://calendly.com/deephire-steven/demo' });
+                  return false;
+                }}
+                className="navbar_button"
+              />
             </a>
             <Drawer
               width="420px"
@@ -85,7 +87,14 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                 offset={-100}
               />
               <a href="#1" className="navbar_drawer_button">
-                <Button {...button} title="GET DEMO" />
+                <Button
+                  {...button}
+                  title="GET DEMO"
+                  onClick={e => {
+                    Calendly.initPopupWidget({ url: 'https://calendly.com/deephire-steven/demo' });
+                    return false;
+                  }}
+                />
               </a>
             </Drawer>
           </Box>

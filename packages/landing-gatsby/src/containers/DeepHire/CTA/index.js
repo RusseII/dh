@@ -1,3 +1,4 @@
+/* global Calendly */
 import React from 'react';
 import PropTypes from 'prop-types';
 import Box from 'reusecore/src/elements/Box';
@@ -9,14 +10,7 @@ import Container from 'common/src/components/UI/Container';
 
 import NewsletterWrapper, { ContactFormWrapper } from './newsletter.style';
 
-const Newsletter = ({
-  sectionWrapper,
-  textArea,
-  buttonArea,
-  buttonStyle,
-  title,
-  description,
-}) => {
+const Newsletter = ({ sectionWrapper, textArea, buttonArea, buttonStyle, title, description }) => {
   return (
     <Box {...sectionWrapper} as="section">
       <Container>
@@ -29,9 +23,14 @@ const Newsletter = ({
             />
           </Box>
           <Box {...buttonArea}>
-           
-              <Button {...buttonStyle} title="GET DEMO" />
-            
+            <Button
+              {...buttonStyle}
+              title="GET DEMO"
+              onClick={e => {
+                Calendly.initPopupWidget({ url: 'https://calendly.com/deephire-steven/demo' });
+                return false;
+              }}
+            />
           </Box>
         </NewsletterWrapper>
       </Container>

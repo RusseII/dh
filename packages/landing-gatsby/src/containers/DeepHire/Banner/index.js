@@ -1,3 +1,5 @@
+/* global Calendly */
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import Icon from 'react-icons-kit';
@@ -91,9 +93,16 @@ const BannerSection = ({
             <Text {...description} content="We can help you change that." />
             <Box {...buttonWrapper}>
               <a href="#1">
-                <Button {...fillButton} title="GET DEMO" />
+                <Button
+                  {...fillButton}
+                  title="GET DEMO"
+                  onClick={e => {
+                    Calendly.initPopupWidget({ url: 'https://calendly.com/deephire-steven/demo' });
+                    return false;
+                  }}
+                />
               </a>
-              <a href="#1">
+              <a href="#3">
                 <Button
                   {...button}
                   title="Learn More"
