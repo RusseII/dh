@@ -46,7 +46,7 @@ const SectionWrapper = styled.section`
           color: #45b1e1;
           font-size: 56px;
           @media (max-width: 990px) {
-            font-size: 40px;
+            font-size: 48px;
           }
         }
         h3 {
@@ -62,7 +62,7 @@ const SectionWrapper = styled.section`
           color: #d6ab00;
           font-size: 56px;
           @media (max-width: 990px) {
-            font-size: 40px;
+            font-size: 48px;
           }
         }
         h3 {
@@ -78,7 +78,7 @@ const SectionWrapper = styled.section`
           color: #40975f;
           font-size: 56px;
           @media (max-width: 990px) {
-            font-size: 40px;
+            font-size: 48px;
           }
         }
         h3 {
@@ -94,7 +94,7 @@ const SectionWrapper = styled.section`
           color: #5856d6;
           font-size: 56px;
           @media (max-width: 990px) {
-            font-size: 28px;
+            font-size: 48px;
           }
         }
         h3 {

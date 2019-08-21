@@ -22,7 +22,7 @@ const SectionWrapper = styled.section`
       .icon__wrapper {
         background-color: #fff6d3;
         color: #d6ac02;
-        font-size: 32px;
+        font-size: 40px;
       }
     }
 
@@ -30,7 +30,7 @@ const SectionWrapper = styled.section`
       .icon__wrapper {
         background-color: #e4ffee;
         color: #40975f;
-        font-size: 36px;
+        font-size: 40px;
       }
     }
 
@@ -46,7 +46,7 @@ const SectionWrapper = styled.section`
       .icon__wrapper {
         background-color: #fceee4;
         color: #ea7a2f;
-        font-size: 38px;
+        font-size: 40px;
       }
     }
   }

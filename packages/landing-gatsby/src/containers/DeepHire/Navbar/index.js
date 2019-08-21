@@ -42,14 +42,14 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
       <Container>
         <Box {...row}>
           <Logo
-            href="/deephire"
+            href="/"
             logoSrc={LogoImage}
             title="Portfolio"
             logoStyle={logoStyle}
             className="main-logo"
           />
           <Logo
-            href="/deephire"
+            href="/"
             logoSrc={LogoImageAlt}
             title="Portfolio"
             logoStyle={logoStyle}

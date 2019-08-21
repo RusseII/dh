@@ -35,19 +35,18 @@ const TestimonialSection = ({
           designation
           review
           title
-        
+          avatar {
+            childImageSharp {
+              fluid(quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     }
   `);
 
-    // avatar {
-    //         childImageSharp {
-    //           fluid(quality: 100) {
-    //             ...GatsbyImageSharpFluid
-    //           }
-    //         }
-    //       }
   const carouselOptions = {
     type: 'carousel',
     autoplay: 6000,
@@ -66,10 +65,7 @@ const TestimonialSection = ({
       <Container>
         <Box {...secTitleWrapper}>
           <Text {...secText} content="TESTIMONIAL" />
-          <Heading
-            {...secHeading}
-            content="What our clients say"
-          />
+          <Heading {...secHeading} content="What our clients say" />
         </Box>
         <TestimonialSlideWrapper>
           <GlideCarousel
@@ -88,10 +84,10 @@ const TestimonialSection = ({
                     <TestimonialMeta>
                       <AuthorInfo>
                         <AuthorImage>
-                          {/* <Image
+                          <Image
                             fluid={item.avatar.childImageSharp.fluid}
                             alt={`reviewer-image-${index}`}
-                          /> */}
+                          />
                         </AuthorImage>
                         <Box>
                           <Heading as="h3" content={item.name} {...name} />

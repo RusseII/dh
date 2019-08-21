@@ -102,7 +102,7 @@ const BannerSection = ({
                   }}
                 />
               </a>
-              <a href="#3">
+              <a href="#screenshot_section">
                 <Button
                   {...button}
                   title="Learn More"
