@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `A react next landing page`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `DeepHire - Simple Video Interviews`,
+    description: `DeepHire is the simpliest way to present your candidates with video.`,
+    author: `russell@deephire.com`,
   },
   plugins: [
     {
       resolve: `gatsby-plugin-s3`,
      options: {
-         bucketName: 'deephire.com'
+         bucketName: 'landing.deephire.com'
      }
     },
     {
@@ -20,6 +20,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {
+
         minify: false, // Breaks styles if not set to false
       },
     },
